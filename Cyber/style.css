@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #222222;
+    cursor:default;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #65DAFF;
+    margin-bottom: 55px;
+}
+
+.section-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+
+.nav-menu {
+    background-color: #222222;
+    width: 100%;
+    height: 80px;
+    box-shadow: #222222;
+    z-index: 100;
+    line-height: 80px;
+    position: fixed;
+    margin-bottom: -5%;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navigation {
+    float: right;
+}
+.nav-item{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.nav-item:hover{
+    color: #65DAFF;
+    text-shadow: 0 0 5px #65DAFF;
+}
+.sait-header{
+    background-image: url(C:/Users/DaviD/Desktop/питон/сайты/Cyber/Cyber/img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    height: 80vh;
+    position: relative;
+    
+}
+.header-content{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-title{
+    font-size: 95px;
+    color: #323232;
+    margin-left: 5%;
+}
+.header-sub_title{
+    font-size: 50px;
+    margin-top: 4%;
+    color: #434242;
+    margin-left: 5%;
+}
+.header-bth{
+    width: fit-content;
+    display: block;
+    padding: 30px 80px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg,#65DAFF,#70FFCB);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.header-bth:active{
+    background: linear-gradient(45deg,#347083,#00eaff);
+    transform: scale(1.05);
+}
+.header-bth:hover{
+    transform: scale(1.05);
+}
+.about{
+    height: 40vh;
+    text-align: center;
+}
+.about-card{
+    margin-top: 100px;
+    display: inline-block;
+    width: 24%;
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+.about-card_title{
+    color: #65DAFF;
+    font-size: 25px;
+}
+.about-card_img{
+    height: 130px;
+    margin-bottom: 30px;
+    margin-top: -28%;
+}
+.games-container{
+    margin-top: 100px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+.games-card{
+    position: relative;
+}
+.games-card_content{
+    display: inline-block;
+    width: 49%;
+    min-height: 350px;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+.game-title{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #70FFCB;
+}
+.game-divider{
+    width: 130px;
+    border: none;
+    height: 3px;
+    background: #70FFCB;
+    margin: 20px 0;
+}
+.games-card_img{
+    display: inline-block;
+    background: url(C:/Users/DaviD/Desktop/питон/сайты/Cyber/Cyber/img/csgo.jpg) left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.games-card_img2{
+    display: inline-block;
+    background: url(C:/Users/DaviD/Desktop/питон/сайты/Cyber/Cyber/img/dota2.jpg) left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.games-card_img3{
+    display: inline-block;
+    background: url(C:/Users/DaviD/Desktop/питон/сайты/Cyber/Cyber/img/apex.jpg) left/cover no-repeat;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+.m2{
+    margin-bottom: 60px;
+    margin-top: 90px;
+    text-align: center;
+}
+.m3{
+    text-align: center;
+}
+.m22{
+    margin-top: 75px;
+    text-align: center;
+}
+.discord{
+    text-align: center;
+}
+.go{
+    color: #00eaff;
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+.line2{
+    color: white;
+    height: 3px;
+    width: 25%;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+.button2{
+    background-color: #00eaff;
+    margin: auto;
+    margin-top: 3%;
+    width: 60%;
+    display: inline-block;
+    padding: 45px;
+    height: 50%;
+    border-radius: 9px;
+    
+}
+.click-there{
+    font-size: 35px;
+    color: white;
+    float: left;
+}
+.call{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5%;
+    transition: 0.9s;
+    font-weight: 500;
+}
+.call:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.button{
+    padding: 30px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 60px black;
+    width: 60%;
+    margin: auto;
+    height: 40%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    margin-top: 6%;
+
+}
+
